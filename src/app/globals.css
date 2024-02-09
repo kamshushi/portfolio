@@ -5,10 +5,15 @@
 
 :root {
   --clr-bg: #181818;
-  --clr-font: #dcdcdc;
+  --clr-font-primary: #dcdcdc;
+  --clr-font-secondary: #fec576;
 }
 
 body {
   background-color: var(--clr-bg);
-  color: var(--clr-font);
+  color: var(--clr-font-primary);
+}
+
+* {
+  min-width: 0;
 }
