@@ -15,6 +15,8 @@ const config: Config = {
       },
       fontFamily: {
         main: "Roboto, sans-serif", // Adds a new `font-main` class
+        nav: "Bebas Neue, sans-serif",
+        signature: "Shadows Into Light, cursive",
       },
     },
   },
