@@ -15,11 +15,10 @@ export default function Navbar() {
     <SectionContainer
       className={`fixed w-full bg-[var(--clr-bg)] overflow-hidden border-b border-gray-700 flex items-center justify-between h-[var(--navbar-height)] transition-[top] duration-500 delay-100 font-nav text-2xl tracking-wider ${navPosition}`}
     >
-      <h2 className="font-signature text-[var(--clr-font-secondary)]">
-        Ahmed Elkamshoushy
-      </h2>
+      <h2 className="font-signature text-secondary">Code By Ahmed</h2>
 
       <ul className="flex gap-8">
+        <li>Home</li>
         <li>Work</li>
         <li>Contact</li>
         <li>About</li>

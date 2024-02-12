@@ -24,19 +24,19 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap"
           rel="stylesheet"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
           rel="stylesheet"
         />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
           rel="stylesheet"
         ></link>
+        {/*  */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={inter.className} style={{ height: 3000 }}>
         <ScrollContextProvider>{children}</ScrollContextProvider>
