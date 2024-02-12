@@ -13,9 +13,13 @@ export default function Navbar() {
 
   return (
     <SectionContainer
-      className={`fixed w-full bg-[var(--clr-bg)] overflow-hidden border-b border-gray-700 flex items-center justify-between h-[var(--navbar-height)] transition-[top] duration-500 delay-100 font-nav text-2xl tracking-wider ${navPosition}`}
+      className={`fixed z-[2] w-full bg-[var(--clr-bg)] overflow-hidden border-b border-gray-700 flex items-center justify-between h-[var(--navbar-height)] transition-[top] duration-500 delay-100 font-nav text-2xl tracking-wider ${navPosition}`}
     >
-      <h2 className="font-signature text-secondary">Code By Ahmed</h2>
+      <h2 className="font-signature text-secondary">
+        {"<"}
+        <span className="text-white">Ahmed</span>
+        {" />"}
+      </h2>
 
       <ul className="flex gap-8">
         <li>Home</li>

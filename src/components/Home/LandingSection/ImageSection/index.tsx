@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import myPic from "../../../../../public/my-picture2.jpg";
+import myPic from "../../../../../public/my-picture.jpg";
 import classes from "./styles.module.css";
 
 export default function ImageSection() {
