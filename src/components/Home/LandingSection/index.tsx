@@ -15,7 +15,7 @@ export default function LandingSection() {
           <div className="flex items-center">
             <div>
               <h6 className="font-main-header text-7xl font-black">
-                CREATIVE <span className="text-secondary-txt block">WEB</span>{" "}
+                CREATIVE <span className="text-secondary-txt block">WEB</span>
                 DEVELOPER
               </h6>
 

@@ -12,7 +12,7 @@ export default function HomePageComponent() {
       <div>
         <LandingSection />
       </div>
-      <div>
+      <div className="mt-16">
         <AboutMeSection />
       </div>
     </div>
