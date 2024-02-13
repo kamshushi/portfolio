@@ -29,7 +29,7 @@ export default function IconsSection() {
       {icons.map(({ icon: Icon, link, title }) => {
         return (
           <li key={link}>
-            <Icon className="text-3xl hover:text-secondary cursor-pointer" />
+            <Icon className="text-3xl hover:text-secondary-txt cursor-pointer" />
           </li>
         );
       })}

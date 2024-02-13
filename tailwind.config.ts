@@ -20,7 +20,9 @@ const config: Config = {
         "main-header": "Arvo, sans-serif",
       },
       colors: {
-        secondary: "var(--clr-font-secondary)",
+        "primary-txt": "var(--clr-font-primary)",
+        "secondary-txt": "var(--clr-font-secondary)",
+        "primary-bg": "var(--clr-bg)",
       },
     },
   },

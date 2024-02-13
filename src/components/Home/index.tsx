@@ -1,6 +1,7 @@
 import React from "react";
 import LandingSection from "./LandingSection";
 import Navbar from "../Navbar";
+import AboutMeSection from "./AboutMeSection";
 
 export default function HomePageComponent() {
   return (
@@ -10,6 +11,9 @@ export default function HomePageComponent() {
       </div>
       <div>
         <LandingSection />
+      </div>
+      <div>
+        <AboutMeSection />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export default function LandingSection() {
           <div className="flex items-center">
             <div>
               <h6 className="font-main-header text-7xl font-black">
-                CREATIVE <span className="text-secondary block">WEB</span>{" "}
+                CREATIVE <span className="text-secondary-txt block">WEB</span>{" "}
                 DEVELOPER
               </h6>
 
@@ -31,7 +31,7 @@ export default function LandingSection() {
               </div>
             </div>
             {/* <div className="font-main">
-              <h4 className="text-2xl font-bold text-[var(--clr-font-secondary)]">
+              <h4 className="text-2xl font-bold text-[var(--clr-font-secondary-txt)]">
                 Ahmed Elkamshoushy
               </h4>
               <span className="mt-3 text-slate-400">Web Developer</span>
