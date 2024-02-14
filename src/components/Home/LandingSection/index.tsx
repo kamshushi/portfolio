@@ -6,20 +6,20 @@ import MainButton from "@/components/common/MainButton";
 
 export default function LandingSection() {
   return (
-    <SectionContainer>
-      <div className="h-svh pt-[var(--navbar-height)] flex items-center">
-        <div className="flex gap-32 justify-center sm:flex-wrap xl:flex-nowrap">
-          <div className="shrink-0 w-[400px]	">
+    <SectionContainer className="">
+      <div className="h-auto pt-[var(--navbar-height)] flex items-center  lg:h-svh">
+        <div className="mt-20 lg:mt-0 h-full w-full flex gap-32 items-center  flex-nowrap flex-col lg:flex-row">
+          <div className="shrink-0 w-4/5 md:w-4/6 lg:w-[28vw]	">
             <ImageSection />
           </div>
-          <div className="flex items-center">
-            <div>
-              <h6 className="font-main-header text-7xl font-black">
+          <div className="w-full flex items-center">
+            <div className="w-full">
+              <h6 className="font-main-header text-[10vw] sm:text-[9vw] lg:text-[4.5vw] font-black">
                 CREATIVE <span className="text-secondary-txt block">WEB</span>
                 DEVELOPER
               </h6>
 
-              <div className="mt-10 flex gap-5">
+              <div className="mt-10 flex gap-5 flex-col lg:flex-row">
                 <MainButton className="flex-1">hire me</MainButton>
 
                 <MainButton type="secondary" className="flex-1">

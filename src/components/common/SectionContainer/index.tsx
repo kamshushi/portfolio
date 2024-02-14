@@ -8,7 +8,7 @@ export default function SectionContainer({
   className = "",
   ...props
 }: TProps) {
-  const combinedClassName = `sm:px-16 md:px-32 lg:px-40 xl:px-52 ${className}`;
+  const combinedClassName = `px-8 sm:px-16 md:px-28 lg:px-40 xl:px-52 ${className}`;
   return (
     <section className={combinedClassName} {...props}>
       {children}

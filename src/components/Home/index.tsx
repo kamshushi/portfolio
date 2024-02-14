@@ -5,7 +5,7 @@ import AboutMeSection from "./AboutMeSection";
 
 export default function HomePageComponent() {
   return (
-    <div>
+    <div className="font-main">
       <div>
         <Navbar />
       </div>
