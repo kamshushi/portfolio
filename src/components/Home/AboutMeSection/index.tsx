@@ -7,7 +7,7 @@ export default function AboutMeSection() {
       <h2 className="text-5xl font-about-me-header font-bold text-center">
         Hi, I'm <span className="">Ahmed Elkamshoushy</span>
       </h2>
-      <p className="mt-16 text-xl font-about-me-body">
+      <p className="mt-16 text-xl">
         I'm a web developer, I live in Egypt and I work with the technical team
         that is currently maintaining this website. I enjoy building websites
         and the best thing about my job is that I get to build something that

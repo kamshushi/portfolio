@@ -17,7 +17,7 @@ export default function Navbar() {
     >
       <h2 className="font-signature text-secondary-txt">
         {"<"}
-        <span className="text-white">Ahmed</span>
+        <span className="text-primary-txt">Ahmed</span>
         {" />"}
       </h2>
 
